@@ -39,7 +39,7 @@ pipeline {
                             nexusVersion: 'nexus3',
                             protocol: 'http',
                             nexusUrl: '54.242.6.84:8081',
-                            groupId: 'pom.com.mycompany.app',
+                            groupId: 'pom.com.testcompany.app',
                             version: 'pom.2.0-SNAPSHOT',
                             repository: 'mave-central-repository',
                             credentialsId: 'Nexus_Cred',
