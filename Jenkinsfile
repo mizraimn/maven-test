@@ -14,7 +14,7 @@ pipeline {
         stage("Clone code from GitHub") {
             steps {
                 script {
-                    git branch: 'main', credentialsId: 'github-webhook', url: 'https://github.com/mizraimn/maven-test';
+                    git branch: 'main', credentialsId: '432d3691-f5df-4767-9c42-863b2471af3c', url: 'https://github.com/mizraimn/maven-test';
                 }
             }
         }
