@@ -140,18 +140,6 @@
                     <version>0.8.4</version>
                 </plugin>
       </plugins>
-    </pluginManagement>
-    <distributionManagement>
-	<repository>
-		<id>devopsschool</id>
-		<name>Internal Releases</name>
-		<url>http://54.242.6.84:8081/repository/maven-central-repository/</url>
-	</repository>
-    </distributionManagement>
-    <server>
-	<id>devopsschool</id>
-	<username>deploy-user</username>
-	<password>deploy-user123</password>
-</server>  
+    </pluginManagement> 
   </build>
 </project>
