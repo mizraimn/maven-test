@@ -10,6 +10,7 @@ pipeline {
         NEXUS_REPOSITORY = "maven-test"
         NEXUS_CREDENTIAL_ID = "Nexus_Cred"
     }
+    
     stages {
         stage("Clone code from GitHub") {
             steps {
